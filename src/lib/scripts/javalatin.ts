@@ -1,114 +1,107 @@
 const wyanjana:{ [id: string]: string; }  = {
-    'ꦲ':'h',      // ha 
-    'ꦤ':'n',      // na
-    'ꦕ':'c',      // ca
-    'ꦫ':'r',      // ra
-    'ꦏ':'k',      // ka
-    'ꦢ':'d',      // da
-    'ꦠ':'t',      // ta
-    'ꦱ':'s',      // sa
-    'ꦮ':'w',      // wa
-    'ꦭ':'l',      // la
-    'ꦥ':'p',      // pa
-    'ꦝ':'dh',      // dha
-    'ꦗ':'j',      // ja
-    'ꦪ':'y',      // ya
-    'ꦚ':'ny',     // nya
-    'ꦩ':'m',      // sa
-    'ꦒ':'g',      // ga
-    'ꦧ':'b',      // ba
-    'ꦛ':'t',      // tha
-    'ꦔ':'ng',     // nga
-    'ꦟ':'n',       // na murda
-    'ꦑ':'k',       // ka murda
-    'ꦡ':'t',       // ta murda
-    'ꦯ':'s',       // sa murda
-    'ꦦ':'p',       // pa murda
+    'ᬳ':'h',      // ha 
+    'ᬦ':'n',      // na
+    'ᬘ':'c',      // ca
+    'ᬭ':'r',      // ra
+    'ᬓ':'k',      // ka
+    'ᬤ':'d',      // da
+    'ᬢ':'t',      // ta
+    'ᬲ':'s',      // sa
+    'ᬯ':'w',      // wa
+    'ᬮ':'l',      // la
+    'ᬧ':'p',      // pa
+    'ᬥ':'dh',      // dha
+    'ᬚ':'j',      // ja
+    'ᬬ':'y',      // ya
+    'ᬜ':'ny',     // nya
+    'ᬫ':'m',      // ma
+    'ᬕ':'g',      // ga
+    'ᬩ':'b',      // ba
+    'ᬝ':'t',      // tha
+    'ᬗ':'ng',     // nga
+    'ᬡ':'n',       // na murda
+    'ᬔ':'k',       // ka murda
+    'ᬣ':'t',       // ta murda
+    'ᬰ':'s',       // sa murda
+    'ᬨ':'p',       // pa murda
     'ꦘ':'ny',      // nya murda
-    'ꦓ':'g',       // ga murda
-    'ꦨ':'b',       // ba murda
-    'ꦰ':'s',       // sa mahaprana
-    'ꦖ':'ch',      // cha mahaprana
-    'ꦣ':'d',        // da mahaprana
-    'ꦞ':'dh',      // dha mahaprana
-    'ꦜ':'th',      // tha mahaprana
-    'å':'jh',      // ja jera
-    'ꦐ':'q',       // ka sasak
-    'ꦬ':'r',       // ra agung
+    'ᬖ':'g',       // ga murda
+    'ᬪ':'b',       // ba murda
+    'ᬱ':'s',       // sa mahaprana
+    'ᬙ':'ch',      // cha mahaprana
+    'ᬟ':'d',        // da mahaprana
+    'ᬠ':'dh',      // dha mahaprana
+    'ᬞ':'th',      // tha mahaprana
+    'ᬛ':'jh',      // ja jera
+    'ᭅ':'q',       // ka sasak
 }
 
 const rekan:{ [id: string]: string; }  = {
-    'ꦢ':'dz',      // ga
-    'ꦒ':'gh',      // gh
-    'ꦗ':'z',      // za
-    'ꦥ':'f',      // fa
-    'ꦮ':'v',      // ga
+    'ᭆ':'kh',      // kha
+    'ᬖ':'gh',      // gha
+    'ᭊ':'z',      // za
+    'ᭈ':'f',      // fa
+    'ᭇ':'ts',      // ts
 }
 
 const swara:{ [id: string]: string; }  = {
-    'ꦄ':'A',        // a 
-    'ꦆ':'I',        // i 
-    'ꦅ':'I',        // i kawi
-    'ꦈ':'U',        // u 
-    'ꦌ':'E',        // e 
-    'ꦎ':'O',        // o
+    'ᬅ':'A',        // a 
+    'ᬇ':'I',        // i 
+    'ᬉ':'U',        // u 
+    'ᬏ':'E',        // e 
+    'ᬑ':'O',        // o
 }
 
 // diacritics swara
 const sandhanganSwara:{ [id: string]: string; }  = {
-    'ꦶ':'i',        // i
-    'ꦸ':'u',        // u
-    'ꦼ':'ê',        // ê
-    'ꦺ':'e',        // e
-    'ꦺꦴ':'o',        // o
-    'ꦻ':'ai',        // e
-    'ꦻꦴ':'au',        // e
-    'ꦷ':'ī',       // dirga melik, long i
-    'ꦹ':'ū',       // dirga mendut, long u
+    'ᬶ':'i',        // i
+    'ᬸ':'u',        // u
+    'ᭂ':'ê',        // ê
+    'ᬾ':'e',        // e
+    'ᭀ':'o',        // o
+    'ᬿ':'ai',        // e
+    'ᭁ':'au',        // e
+    'ᬷ':'ī',       // dirga melik, long i
+    'ᬹ':'ū',       // dirga mendut, long u
 }
 
 // diacritics swara
 const sandhanganWyanjana:{ [id: string]: string; }  = {
-    'ꦿ':'r',       // cakra
-    'ꦽ':'r',       // cakra kêrêt
-    'ꦾ':'y',       // pengkal
+    '᭄ᬭ':'r',       // guwung
+    'ᬺ':'rě',       // guwung maclek
+    '᭄ᬬ':'y',       // nania
+    '᭄ᬮ':'l',       // gantungan la
+    '᭄ᬯ':'w',       // suku kembung
 }
 
 const sandhanganPanyigeg:{ [id: string]: string; }  = {
-    'ꦂ':'r',        // layar (r)
-    'ꦁ':'ng',       // cecak (ng)
-    'ꦃ':'h',        // wigyan (h)
-    'ꦀ':'ṁ'          // panyangga (ṁ)
+    'ᬃ':'r',        // layar (r)
+    'ᬂ':'ng',       // cecak (ng)
+    'ᬄ':'h',        // wigyan (h)
+    'ᬁ':'ṁ',          // panyangga (ṁ)
+    'ᬀ':'ṃ', 
 }
 
 // punctuations
 const pada:{ [id: string]: string; }  = {
     '​':' ',          // zero width non joiner
-    '꧊':'',         // adeg
-    '꧋':'',         // adeg-adeg
-    'ꧏ':'',        // pangkrangkep
-    '꧞':'',        // tirta tumetes
-    '꧟':'',        // isen-isen
-    '꧌':'(',        // pada piseleh
-    '꧍':')',        // turned pada piseleh
-    '꧁':'',        // left rerenggan
-    '꧂':'',        // right rerenggan
-    '꧈':',',        // pada lingsa
-    '꧉':'.',        // pada lungsi
-    '꧆':'',        // pada windu
-    '꧃':'',         // pada andhap
-    '꧄':'',         // pada madya
-    '꧅':'',         // pada luhur
-    '꧑':'1',        // angka 1
-    '꧒':'2',        // angka 2
-    '꧓':'3',        // angka 3
-    '꧔':'4',        // angka 4
-    '꧕':'5',        // angka 5
-    '꧖':'6',        // angka 6
-    '꧗':'7',        // angka 7
-    '꧘':'8',        // angka 8
-    '꧙':'9',        // angka 9
-    '꧐':'0',        // angka 0
+    '᭚ ':'||',         // panten
+    '᭛':'',         // pemati
+    '᭜':'○',        // tirta tumetes
+    '᭚':'',        // isen-isen
+    '᭞':',',        // carik siki
+    '᭟':'.',        // carik kalih
+    '᭠':'–',        // pada windu
+    '᭑':'1',        // angka 1
+    '᭒':'2',        // angka 2
+    '᭓':'3',        // angka 3
+    '᭔':'4',        // angka 4
+    '᭕':'5',        // angka 5
+    '᭖':'6',        // angka 6
+    '᭗':'7',        // angka 7
+    '᭘':'8',        // angka 8
+    '᭙':'9',        // angka 9
+    '᭐':'0',        // angka 0
 }
 
 function convert(str:string):string {
@@ -272,16 +265,16 @@ function isPada(key:string):boolean { return Object.prototype.hasOwnProperty.cal
 
 function isPaCeret(s:string):boolean { return s === "ꦉ"; }
 
-function isNgaLelet(s:string):boolean { return s === "ꦊ"; }
+function isNgaLelet(s:string):boolean { return s === "ᬍ"; }
 
-function isNgaLeletRaswadi(s:string):boolean { return s === "ꦋ"; }
+function isNgaLeletRaswadi(s:string):boolean { return s === "ᬎ"; }
 
-function isPangkon(s:string):boolean { return s === "꧀"; }
+function isPangkon(s:string):boolean { return s === "᭄"; }
 
-function isCakraKeret(s:string):boolean { return s === "ꦽ" }
+function isCakraKeret(s:string):boolean { return s === "ᬺ" }
 
-function isTarung(s:string):boolean { return s === "ꦴ"; }
+function isTarung(s:string):boolean { return s === "ᬵ"; }
 
-function isCecakTelu(s:string):boolean { return s === "꦳"; }
+function isCecakTelu(s:string):boolean { return s === "ᬂ"; }
 
 export { convert };
