@@ -260,7 +260,7 @@ function onPointerLeaveCopyButton()
             <div style="margin-block-start: 1em;">
                 <label style="margin-right: .5em;">
                     <input type="checkbox" role="switch" bind:checked={ isVirtualKeyboardActive }>
-                    Aktifkan Keyboard Virtual Aksara Jawa
+                    Aktifkan Keyboard Virtual Aksara Sasak
                 </label>
             </div>
                 {#if isVirtualKeyboardActive }
@@ -292,7 +292,7 @@ function onPointerLeaveCopyButton()
             <li>
                 <h5>Mode Ketik Pepet</h5>
                 {#if method == ConverterMethod.LatinToJava }
-                <p>Saat diaktifkan, tombol x pada keyboard akan digantikan fungsinya untuk mengetikkan huruf ê yang merepresentasikan pepet (ꦼ) dalam aksara Jawa. Huruf ê sendiri menghasilkan bunyi seperti huruf e pada kata "enam".</p>
+                <p>Saat diaktifkan, tombol x pada keyboard akan digantikan fungsinya untuk mengetikkan huruf ê yang merepresentasikan pepet (ᭂ) dalam aksara Sasak. Huruf ê sendiri menghasilkan bunyi seperti huruf e pada kata "enam".</p>
                 {/if}
                 {#if method == ConverterMethod.LatinToKawi}
                 <p>Saat diaktifkan, tombol x pada keyboard akan digantikan fungsinya untuk mengetikkan huruf ê yang merepresentasikan pepet (𑽀◌) dalam aksara Kawi. Huruf ê sendiri menghasilkan bunyi seperti huruf e pada kata "enam".</p>
@@ -305,40 +305,34 @@ function onPointerLeaveCopyButton()
             {#if method == ConverterMethod.LatinToJava }
             <li>
                 <h5>Murda</h5>
-                <p>Saat diaktifkan, aksara pertama dari aksara-aksara ꦤ, ꦏ, ꦠ, ꦱ, ꦥ, ꦘ, ꦒ, ꦧ akan diubah ke dalam bentuk aksara murda-nya ꦟ, ꦑ, ꦡ, ꦯ, ꦦ, ꦟ, ꦓ, ꦨ.
-                Dalam aksara jawa, aksara murda digunakan layaknya huruf kapital dalam bahasa Indonesia dan dipakai khusus untuk penulisan nama, gelar, atau tempat.</p>
+                <p>Saat diaktifkan, aksara pertama dari aksara-aksara ᬦ, ᬓ, ᬢ, ᬲ, ᬧ, ᬜ, ᬕ, ᬩ akan diubah ke dalam bentuk aksara murda-nya ᬡ, ᬔ, ᬣ, ᬰ, ᬨ, ᬡ, ᬖ, ᬪ.
+                Dalam aksara sasak, aksara murda digunakan layaknya huruf kapital dalam bahasa Indonesia dan dipakai khusus untuk penulisan nama, gelar, atau tempat.</p>
             </li>
             <li>
                 <h5>Diftong</h5>
-                <p>Saat diaktifkan, gugus vokal 'ai', 'au' dan vokal panjang 'aa', 'ii', 'uu' akan diubah menjadi karakter spesial aksara jawa, yakni ꦻ (Dirga Mure) untuk 'ai', ꦻꦴ (Dirga Mure Tarung) untuk 'au', ꦴ (Tarung) untuk 'aa', ꦷ (Dirga Melik) untuk 'ii', dan ꦹ (Dirga Mendhut) untuk 'uu'.</p>
+                <p>Saat diaktifkan, gugus vokal 'ai', 'au' dan vokal panjang 'aa', 'ii', 'uu' akan diubah menjadi karakter spesial aksara sasak, yakni ᬿ (Taling Repa) untuk 'ai', ᭁ (Taling Repa Tedung) untuk 'au', ᬵ (Tedung) untuk 'aa', ᬷ (Ulu Sari) untuk 'ii', dan ᬹ (Suku Ilut) untuk 'uu'.</p>
             </li>
             <li>
                 <h5>Tombol Karakter Spesial</h5>
-                <p>Berisikan tombol-tombol untuk mengetikkan karakter-karakter spesial yang digunakan untuk merepresentasikan huruf-huruf aksara jawa yang tidak dapat diwakili oleh alfabet A-Z.</p>
+                <p>Berisikan tombol-tombol untuk mengetikkan karakter-karakter spesial yang digunakan untuk merepresentasikan huruf-huruf aksara sasak yang tidak dapat diwakili oleh alfabet A-Z.</p>
                 <p>Berikut karakter-karakter spesial yang digunakan dalam konverter ini beserta hasil konversinya :</p>
                 <ul style="margin-block-end: 1em">
-                    <li>Ê menghasilkan ꦄꦼ (Swara Ê)</li>  
-                    <li>ê menghasilkan  ꦼ (Pepet)</li>
-                    <li>ā menghasilkan ꦴ (Tarung)</li>  
-                    <li>ī menghasilkan ꦷ (Dirga Melik)</li>  
-                    <li>ū menghasilkan ꦹ (Dirga Mendhut)</li>
-                    <li>ḍ menghasilkan ꦝ (Dha)</li>  
-                    <li>ḍh menghasilkan ꦞ (Dha Mahaprana)</li> 
-                    <li>ṣ menghasilkan ꦰ (Sa Mahaprana)</li>
-                    <li>ś menghasilkan ꦯ (Sa Murda)</li>
-                    <li>ṭ menghasilkan ꦡ (Ta Murda)</li> 
-                    <li>ṭh menghasilkan ꦜ (Tha Mahaprana)</li> 
-                    <li>ṇ menghasilkan ꦟ (Na Murda)</li> 
-                    <li>ñ menghasilkan ꦚ (Nya)</li>
-                    <li>ŋ menghasilkan ꦔ (Nga)</li> 
+                    <li>Ê menghasilkan ᬅᭂ (Swara Ê)</li>  
+                    <li>ê menghasilkan  ᬾ (Pepet)</li>
+                    <li>ā menghasilkan ᬵ (Tedung)</li>  
+                    <li>ī menghasilkan ᬷ (Ulu Sari)</li>  
+                    <li>ū menghasilkan ᬹ (Suku Ilut)</li>
+                    <li>ḍ menghasilkan ᬟ (Dha)</li>  
+                    <li>ḍh menghasilkan ᬠ (Dha Mahaprana)</li> 
+                    <li>ṣ menghasilkan ᬱ (Sa Mahaprana)</li>
+                    <li>ś menghasilkan ᬰ (Sa Murda)</li>
+                    <li>ṭ menghasilkan ᬝ (Ta Murda)</li> 
+                    <li>ṭh menghasilkan ᬞ (Tha Mahaprana)</li> 
+                    <li>ṇ menghasilkan ᬡ (Na Murda)</li> 
+                    <li>ñ menghasilkan ᬜ (Nya)</li>
+                    <li>ŋ menghasilkan ᬗ (Nga)</li> 
                 </ul>
                 <p>Karakter spesial ñ dan ŋ sama dengan ny dan ng dalam bahasa indonesia</p>
-            </li>
-            {/if}
-            {#if method == ConverterMethod.LatinToKawi }
-            <li>
-                <h5>Tombol Karakter Spesial</h5>
-                <p>Berisikan tombol-tombol untuk mengetikkan karakter-karakter spesial yang digunakan untuk merepresentasikan huruf-huruf aksara kawi yang tidak dapat diwakili oleh alfabet A-Z.</p>
             </li>
             {/if}
         </ul>

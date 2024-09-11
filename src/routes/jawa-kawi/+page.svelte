@@ -17,7 +17,7 @@ import Converter from "$lib/components/Converter.svelte";
         images: [{
             url: "https://arh007.github.io/lapushamzanwadi/alih-aksara-screenshot.png",
           },],
-        site_name: "Alih Aksara",
+        site_name: "Transliterasi Aksara Sasak",
       }}
       twitter={{
         card: "summary_large_image",
