@@ -8,13 +8,13 @@
 <main class="container">
     <nav class="nav">
         <div class="nav-left">
-            <a class="brand" href="{ base }/">alih aksara</a>
+            <a class="brand" href="{ base }/">Transliterasi Sasak</a>
         </div>
         <div class="nav-right">
-            <a href="{ base }/latin-jawa">Latin-Jawa</a>
-            <a href="{ base }/jawa-latin">Jawa-Latin</a>
+            <a href="{ base }/latin-jawa">Latin-Sasak</a>
+            <a href="{ base }/jawa-latin">Sasak-Latin</a>
             <a href="{ base }/latin-kawi">Latin-Kawi</a>
-            <a href="{ base }/jawa-kawi">Jawa-Kawi</a>
+            <a href="{ base }/jawa-kawi">Sasak-Kawi</a>
         </div>
     </nav>
 
