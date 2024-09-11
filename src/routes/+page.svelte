@@ -34,7 +34,7 @@ import { base } from '$app/paths';
   
   <div class="row hero is-vertical-align">
     <div class="col">
-      <p>Alat transliterasi sederhana untuk mengalihkan/mengubah/mengkonversi teks aksara Jawa ke bentuk aksara lain ataupun sebaliknya.</p>
+      <p>Alat transliterasi sederhana untuk mengalihkan/mengubah/mengkonversi teks Aksara Sasak ke bentuk Latin ataupun sebaliknya.</p>
       <a href="{ base }/latin-jawa" class="button primary">Coba Sekarang</a>
     </div>
     <div class="col illustration-image">
@@ -48,9 +48,9 @@ import { base } from '$app/paths';
 
   <div class="row">
     <div class="col-8">
-      <h4>Sekilas Tentang alih aksara</h4>
-      <p>Bisa dibilang proyek <strong>alih aksara</strong> ini hanyalah sebuah keisengan. Iseng karena ini memang bukan proyek serius apalagi resmi, sekadar proyek pribadi suka-suka yang saya manfaatkan untuk lebih dalam mempelajari aksara Jawa ataupun ilmu pemrograman web itu sendiri.</p> 
-      <p>Oleh karena itu, saya yang masih awam ini dengan tangan terbuka menerima segala umpan balik untuk mengembangkan website ini menjadi lebih baik.</p>
+      <h4>Sekilas Tentang Transliterasi Aksara Sasak</h4>
+      <p>Proyek penelitian dan pengembangan <strong>Transliterasi Aksara Sasak</strong> ini hanyalah sebuah uji coba. Karena masih terdapat beberapa kesalahan font dan pengucapan kata dikerenakan kekurangan sumber informasi aksara sasak dari para tetuah seni bahasa sasak.</p> 
+      <p>Oleh karena itu, kami yang masih awam ini dengan tangan terbuka menerima segala umpan balik untuk mengembangkan website ini menjadi lebih baik terutama ahli bahasa sastra, tokoh dan budayawan sasak.</p>
     </div>
     <div class="col">
       <WidgetRecomendation style="margin-bottom: 2em" />
