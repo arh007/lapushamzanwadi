@@ -5,23 +5,23 @@ import Converter from "$lib/components/Converter.svelte";
 </script>
         
 <SvelteSeo
-    title="Transliterasi Aksara Sasak | Jawa-Latin"
+    title="Alih Aksara | Jawa-Latin"
     description="Alat transliterasi sederhana untuk mengalihkan/mengubah/mengkonversi teks aksara Jawa menjadi aksara Latin."
     canonical="https://arh007.github.io/lapushamzanwadi/jawa-latin"
     keywords="alat, transliterasi, konversi, alih, aksara, jawa, latin"
     openGraph={{
-        title: "Transliterasi Aksara Sasak | Jawa-Latin",
+        title: "Alih Aksara | Jawa-Latin",
         description: "Alat transliterasi sederhana untuk mengalihkan/mengubah/mengkonversi teks aksara Jawa menjadi aksara Latin.",
         url: "https://arh007.github.io/lapushamzanwadi/jawa-latin",
         type: "website",
         images: [{
             url: "https://arh007.github.io/lapushamzanwadi/alih-aksara-screenshot.png",
           },],
-        site_name: "Transliterasi Aksara Sasak",
+        site_name: "Alih Aksara",
       }}
       twitter={{
         card: "summary_large_image",
-        title: "Transliterasi Aksara Sasak | Jawa-Latin",
+        title: "Alih Aksara | Jawa-Latin",
         description: "Alat transliterasi sederhana untuk mengalihkan/mengubah/mengkonversi teks aksara Jawa menjadi aksara Latin.",
         image: "https://arh007.github.io/lapushamzanwadi/alih-aksara-screenshot.png",
       }}
