@@ -5,7 +5,7 @@
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
-		"postbuild": "npx svelte-sitemap --domain https://adityarahmanda.github.io/alih-aksara",
+		"postbuild": "npx svelte-sitemap --domain https://arh007.github.io/lapushamzanwadi",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
