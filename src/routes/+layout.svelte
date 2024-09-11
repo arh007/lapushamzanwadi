@@ -21,6 +21,6 @@
     <slot />
 
     <footer class="text-center">
-        <h5>©2021 - <a href="https://adityarahmanda.github.io" class="copyright" style="text-decoration: underline;">Aditya Rahmanda</a></h5>
+        <h5>©2024 - <a href="https://ft.hamzanwadi.ac.id" class="copyright" style="text-decoration: underline;">Development Team</a></h5>
     </footer>
 </main>
