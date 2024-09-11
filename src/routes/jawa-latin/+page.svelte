@@ -5,24 +5,24 @@ import Converter from "$lib/components/Converter.svelte";
 </script>
         
 <SvelteSeo
-    title="Transliterasi Sasak | Jawa-Latin"
-    description="Alat transliterasi sederhana untuk mengalihkan/mengubah/mengkonversi teks aksara Jawa menjadi aksara Latin."
+    title="Transliterasi Aksara Sasak | Sasak-Latin"
+    description="Alat transliterasi sederhana untuk mengalihkan/mengubah/mengkonversi teks aksara Sasak menjadi aksara Latin."
     canonical="https://arh007.github.io/lapushamzanwadi/jawa-latin"
-    keywords="alat, transliterasi, konversi, alih, aksara, jawa, latin"
+    keywords="alat, transliterasi, konversi, alih, aksara, sasak, latin"
     openGraph={{
-        title: "Transliterasi Sasak | Jawa-Latin",
-        description: "Alat transliterasi sederhana untuk mengalihkan/mengubah/mengkonversi teks aksara Jawa menjadi aksara Latin.",
+        title: "Transliterasi Aksara Sasak | Sasak-Latin",
+        description: "Alat transliterasi sederhana untuk mengalihkan/mengubah/mengkonversi teks aksara Sasak menjadi aksara Latin.",
         url: "https://arh007.github.io/lapushamzanwadi/jawa-latin",
         type: "website",
         images: [{
             url: "https://arh007.github.io/lapushamzanwadi/alih-aksara-screenshot.png",
           },],
-        site_name: "Transliterasi Sasak",
+        site_name: "Transliterasi Aksara Sasak",
       }}
       twitter={{
         card: "summary_large_image",
-        title: "Transliterasi Sasak | Jawa-Latin",
-        description: "Alat transliterasi sederhana untuk mengalihkan/mengubah/mengkonversi teks aksara Jawa menjadi aksara Latin.",
+        title: "Transliterasi Aksara Sasak | Sasak-Latin",
+        description: "Alat transliterasi sederhana untuk mengalihkan/mengubah/mengkonversi teks aksara Sasak menjadi aksara Latin.",
         image: "https://arh007.github.io/lapushamzanwadi/alih-aksara-screenshot.png",
       }}
 />

@@ -8,23 +8,23 @@ import { base } from '$app/paths';
 </script>
 
 <SvelteSeo
-  title="Transliterasi Sasak"
+  title="Transliterasi Aksara Sasak"
   description="Alat transliterasi sederhana untuk mengalihkan/mengubah/mengkonversi teks aksara Jawa ke bentuk aksara lain ataupun sebaliknya."
   canonical="https://arh007.github.io/lapushamzanwadi"
   keywords="alat, transliterasi, konversi, alih, aksara, jawa, latin, kawi"
   openGraph={{
-    title: "Transliterasi Sasak",
+    title: "Transliterasi Aksara Sasak",
     description: "Alat transliterasi sederhana untuk mengalihkan/mengubah/mengkonversi teks aksara Jawa ke bentuk aksara lain ataupun sebaliknya.",
     url: "https://arh007.github.io/lapushamzanwadi",
     type: "website",
     images: [{
         url: "https://arh007.github.io/lapushamzanwadi/alih-aksara-screenshot.png",
       },],
-    site_name: "Transliterasi Sasak",
+    site_name: "Transliterasi Aksara Sasak",
   }}
   twitter={{
     card: "summary_large_image",
-    title: "Transliterasi Sasak",
+    title: "Transliterasi Aksara Sasak",
     description: "Alat transliterasi sederhana untuk mengalihkan/mengubah/mengkonversi teks aksara Jawa ke bentuk aksara lain ataupun sebaliknya.",
     image: "https://arh007.github.io/lapushamzanwadi/alih-aksara-screenshot.png",
   }}
