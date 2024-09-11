@@ -43,7 +43,7 @@ function inputTitle():string
             return "Aksara Latin"
         case ConverterMethod.JavaToKawi: 
         case ConverterMethod.JavaToLatin: 
-            return "Aksara Jawa"
+            return "Aksara Sasak"
     } 
 
     return "Aksara Undefined";
@@ -53,7 +53,7 @@ function outputTitle():string
 {
     switch(method) { 
         case ConverterMethod.LatinToJava: 
-            return "Aksara Jawa";
+            return "Aksara Sasak";
         case ConverterMethod.JavaToLatin: 
             return "Aksara Latin";
         case ConverterMethod.JavaToKawi:
