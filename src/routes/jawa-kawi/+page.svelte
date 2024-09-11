@@ -5,12 +5,12 @@ import Converter from "$lib/components/Converter.svelte";
 </script>
     
 <SvelteSeo
-    title="Aksara Sasak | Jawa-Kawi"
+    title="Transliterasi Sasak| Jawa-Kawi"
     description="Alat transliterasi sederhana untuk mengalihkan/mengubah/mengkonversi teks aksara Jawa menjadi aksara Kawi."
     canonical="https://arh007.github.io/lapushamzanwadi/jawa-kawi"
     keywords="alat, transliterasi, konversi, alih, aksara, jawa, kawi"
     openGraph={{
-        title: "Alih Aksara | Jawa-Kawi",
+        title: "Transliterasi Sasak| Jawa-Kawi",
         description: "Alat transliterasi sederhana untuk mengalihkan/mengubah/mengkonversi teks aksara Jawa menjadi aksara Kawi.",
         url: "https://arh007.github.io/lapushamzanwadi/jawa-kawi",
         type: "website",
@@ -21,7 +21,7 @@ import Converter from "$lib/components/Converter.svelte";
       }}
       twitter={{
         card: "summary_large_image",
-        title: "Alih Aksara | Jawa-Kawi",
+        title: "Transliterasi Sasak| Jawa-Kawi",
         description: "Alat transliterasi sederhana untuk mengalihkan/mengubah/mengkonversi teks aksara Jawa menjadi aksara Kawi.",
         image: "https://arh007.github.io/lapushamzanwadi/alih-aksara-screenshot.png",
       }}
