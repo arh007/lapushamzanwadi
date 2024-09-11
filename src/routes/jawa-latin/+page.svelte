@@ -7,15 +7,15 @@ import Converter from "$lib/components/Converter.svelte";
 <SvelteSeo
     title="Alih Aksara | Jawa-Latin"
     description="Alat transliterasi sederhana untuk mengalihkan/mengubah/mengkonversi teks aksara Jawa menjadi aksara Latin."
-    canonical="https://adityarahmanda.github.io/alih-aksara/jawa-latin"
+    canonical="https://arh007.github.io/lapushamzanwadi/jawa-latin"
     keywords="alat, transliterasi, konversi, alih, aksara, jawa, latin"
     openGraph={{
         title: "Alih Aksara | Jawa-Latin",
         description: "Alat transliterasi sederhana untuk mengalihkan/mengubah/mengkonversi teks aksara Jawa menjadi aksara Latin.",
-        url: "https://adityarahmanda.github.io/alih-aksara/jawa-latin",
+        url: "https://arh007.github.io/lapushamzanwadi/jawa-latin",
         type: "website",
         images: [{
-            url: "https://adityarahmanda.github.io/alih-aksara/alih-aksara-screenshot.png",
+            url: "https://arh007.github.io/lapushamzanwadi/alih-aksara-screenshot.png",
           },],
         site_name: "Alih Aksara",
       }}
@@ -23,7 +23,7 @@ import Converter from "$lib/components/Converter.svelte";
         card: "summary_large_image",
         title: "Alih Aksara | Jawa-Latin",
         description: "Alat transliterasi sederhana untuk mengalihkan/mengubah/mengkonversi teks aksara Jawa menjadi aksara Latin.",
-        image: "https://adityarahmanda.github.io/alih-aksara/alih-aksara-screenshot.png",
+        image: "https://arh007.github.io/lapushamzanwadi/alih-aksara-screenshot.png",
       }}
 />
     

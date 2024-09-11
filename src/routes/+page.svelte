@@ -10,15 +10,15 @@ import { base } from '$app/paths';
 <SvelteSeo
   title="Alih Aksara"
   description="Alat transliterasi sederhana untuk mengalihkan/mengubah/mengkonversi teks aksara Jawa ke bentuk aksara lain ataupun sebaliknya."
-  canonical="https://adityarahmanda.github.io/alih-aksara"
+  canonical="https://arh007.github.io/lapushamzanwadi"
   keywords="alat, transliterasi, konversi, alih, aksara, jawa, latin, kawi"
   openGraph={{
     title: "Alih Aksara",
     description: "Alat transliterasi sederhana untuk mengalihkan/mengubah/mengkonversi teks aksara Jawa ke bentuk aksara lain ataupun sebaliknya.",
-    url: "https://adityarahmanda.github.io/alih-aksara",
+    url: "https://arh007.github.io/lapushamzanwadi",
     type: "website",
     images: [{
-        url: "https://adityarahmanda.github.io/alih-aksara/alih-aksara-screenshot.png",
+        url: "https://arh007.github.io/lapushamzanwadi/alih-aksara-screenshot.png",
       },],
     site_name: "Alih Aksara",
   }}
@@ -26,7 +26,7 @@ import { base } from '$app/paths';
     card: "summary_large_image",
     title: "Alih Aksara",
     description: "Alat transliterasi sederhana untuk mengalihkan/mengubah/mengkonversi teks aksara Jawa ke bentuk aksara lain ataupun sebaliknya.",
-    image: "https://adityarahmanda.github.io/alih-aksara/alih-aksara-screenshot.png",
+    image: "https://arh007.github.io/lapushamzanwadi/alih-aksara-screenshot.png",
   }}
 />
 
