@@ -2,10 +2,10 @@
     <h4>Mungkin Kamu Juga Tertarik</h4>
     <ul class="list-unstyled">
       <li style="margin-bottom: .5em">
-        <a href="https://adityarahmanda.github.io/macaksara/" style="text-decoration: underline;">Macaksara - Website Permainan Kuis Aksara Jawa</a>
+        <a href="https://id.wikipedia.org/wiki/Aksara_Sasak" style="text-decoration: underline;">Sejarah Aksara Sasak</a>
       </li>
       <li style="margin-bottom: .5em">
-        <a href="https://adityarahmanda.github.io/artikel/belajar-aksara-jawa" style="text-decoration: underline;">Belajar Aksara Jawa Lengkap Beserta Contohnya</a>
+        <a href="https://www.youtube.com/watch?v=Br2FCp5gOtQ" style="text-decoration: underline;">Belajar Aksara Sasak Lengkap Beserta Contohnya</a>
       </li>
     </ul>
 </div>
